@@ -19,7 +19,7 @@ import Library from "./components/LearningPage/Library";
 import Spanish from "./components/LearningPage/Spanish";
 import French from "./components/LearningPage/French";
 import Quiz from "./components/LearningPage/Math/Quiz";
-
+import Gallery from "./components/Gallery/photo_album.js";
 
 function App() {
   return (
@@ -43,7 +43,7 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/spanish" element={<Spanish />} />
           <Route path="/french" element={<French />} />
-
+          <Route path="/photo-album" element={<Gallery />} />
         </Routes>
         <Footer />
       </div>
