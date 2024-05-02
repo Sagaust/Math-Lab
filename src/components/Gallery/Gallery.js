@@ -1,3 +1,4 @@
+import React from "react";
 import PhotoAlbum from "react-photo-album";
 
 const photos = [
@@ -21,6 +22,8 @@ const photos = [
   },
 ];
 
-export default function Gallery() {
+function Gallery() {
   return <PhotoAlbum layout="rows" photos={photos} />;
 }
+
+export default Gallery;
